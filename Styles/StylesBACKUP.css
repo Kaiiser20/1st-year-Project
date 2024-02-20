@@ -1,0 +1,164 @@
+*{
+    	box-sizing:boder-box;
+	margin:0;
+	padding:0;
+	
+}
+
+li, a {
+	font: 16px sans-serif, Arial;
+	font-weight: 500;
+	color: #E5C58F;
+	text-decoration: transparent;
+}
+
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color:#24262b; /*Dark Grey*/
+
+}
+
+.symbol{
+	cursor: pointer;
+}
+
+.PageLinks{
+	list-style: none;
+}
+
+.PageLinks li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+
+
+.PageLinks li a:hover{
+	color: #348F91;
+}
+
+body{
+	background-color: #24262b;/*Dark Grey*/
+	font-family: sans-serif, Arial, Helvetica;
+}
+
+.Container img{
+	max-width: 100%;
+	margin-bottom: -5px;
+
+}
+
+.TextBlock{
+	position: absolute;
+	text-align:center;
+	color:#E5C58F; /*Gold*/
+	font-family: sans-serif, Arial;
+	font-size:40pt;
+	top:60%;
+	left: 25%;
+  	
+}
+
+#color p{
+	color: #e5c58f;
+}
+
+.section1 {
+	padding:100px 100px;
+}
+.section1 p{
+	font-family:  sans-serif, Arial;
+	text-align: left;
+	line-height:20px;
+	padding:auto;
+	background-color: #e5c58f; /*Teal*/
+	color:#000000;/*Black*/
+	line-height:1.6;
+
+}
+
+.section1 img{
+	width:50%;
+	float: left;
+	margin-right: 80px;
+	padding:100px 100px;
+}
+
+.section2 img{
+	max-width:100%;
+	margin-bottom: -5px;
+}
+
+.footer{
+	padding:100px;
+	background-color: #24262b; /*Dark Grey*/ 
+	margin-bottom: -5px;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+.footer-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-content img{
+	width:20%;
+}
+	
+
+.items h3{
+	padding:20px 0 0 0;
+    	position: relative;
+    	font-size: 1.3em;
+    	margin-bottom: 1rem;
+    	color: #e5c58f;
+}
+.items h3::after{
+	content:"";
+    	position: absolute;
+    	width: 140px;
+    	height: 1px;
+    	background: #fff;
+    	bottom: -4px;
+    	left: 0;
+}
+
+.items a:hover{
+	color:#e5c58f;
+}
+hr{
+    opacity: .3;
+}
+
+.footer .end{
+    	text-align: center;
+    	padding: 20px 0 20px 0;
+	color: #ffffff;
+}
+
+.test{
+	background-image: url(../images/pexels-fauxels-3183197.jpg);
+	max-width:100%;
+	overflow: hidden;  
+background-repeat: no-repeat;
+  background-attachment: scroll;

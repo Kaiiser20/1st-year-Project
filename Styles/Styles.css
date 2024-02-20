@@ -1,0 +1,508 @@
+*{
+    	box-sizing:boder-box;
+	margin:0;
+	padding:0;
+	
+}
+
+.PageLinks li a {
+	font: 18px sans-serif, Arial;
+	font-weight: 500;
+	color: #E5C58F;
+	text-decoration: transparent;
+}
+
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color:#24262b; /*Dark Grey*/
+
+}
+body{
+	background-color:#24262b; /*Dark Grey*/
+	font-family:  sans-serif, Arial;
+}
+
+.symbol{
+	cursor: pointer;
+}
+
+.PageLinks{
+	list-style: none;
+}
+
+.PageLinks li{
+	display: inline-block;
+	padding: 0px 20px;
+	
+}
+
+
+
+.PageLinks li a:hover{
+	color: #ffffff;
+	transition: all 0.3s;
+}
+
+body{
+	
+	font-family: sans-serif, Arial, Helvetica;
+}
+
+.Container{
+	background-image: url(../images/pexels-sanaan-mazhar-3075993.jpg);
+	max-width:100%;
+	background-size: cover;  
+	padding:400px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+	
+}
+
+.TextBlock p{
+	position: absolute;
+	text-align:center;
+	color:#E5C58F; /*Gold*/
+	font-family: sans-serif, Arial;
+	font-size:40pt;
+	top:60%;
+	left: 28%;
+  	
+}
+
+
+.section1 {
+	padding:100px 100px 180px 100px;
+}
+.section1 p{
+	font-family:  sans-serif, Arial;
+	text-align: left;
+	padding:20px 50px 50px 0px;
+	background-color: #e5c58f; /*Gold*/
+	color:#000000;/*Black*/
+	line-height:1.6;
+
+}
+
+.section1 img{
+	width:50%;
+	float: left;
+	margin-right: 80px;
+	padding:40px 0px 100px 50px;
+}
+
+.section2{
+	background-image: url(../images/University-of-Zurich-Law-Library.jpg);
+	max-width:100%;
+	background-size: cover;  
+	padding:400px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+	
+}
+
+
+.section3 {
+	padding:100px 100px 500px 100px;
+}
+.section3 p{
+	font-family:  sans-serif, Arial;
+	text-align: left;
+	line-height:20px;
+	padding:20px 0px 50px 50px;
+	background-color: #e5c58f; /*Gold*/
+	color:#000000;/*Black*/
+	line-height:1.6;
+
+}
+
+.section3 img{
+	width:40%;
+	float: right;
+	margin-right: 80px;
+	padding:40px 0px 100px 50px;
+}
+
+
+.about{
+	background-image: url(../images/pexels-fauxels-3183197.jpg);
+	max-width:100%;
+	background-size: cover;  
+	padding:400px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+	filter: brightness(50%);
+	
+}
+
+.about-heading p{
+	position: absolute;
+	text-align:center;
+	color:#E5C58F; /*Gold*/
+	font-family: sans-serif, Arial;
+	font-size:40pt;
+	top:70%;
+	left: 43%;
+}
+
+.About-Section1{
+	padding: 50px; 10px;
+}
+
+.About-Section1 h2{
+	padding: 30px 0;
+	color:#e5c58f;/*Gold*/
+}
+.About-Section1 br{
+	padding:10px;
+}
+.About-Section1 p{
+		line-height:1.6;
+		padding-right:30px;
+		color:#ffffff;
+		font-size: 14pt;
+}
+
+.About-Section1 img{
+	width:28%;
+	float:right;
+	padding-left:50px;
+	
+}
+
+.About-Section2 {
+	background-image: url(../images/Magic-Breeze-Landscape-Facade-Design.jpg);
+	max-width:100%;
+	background-size: cover;  
+	padding:400px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+	
+	
+}
+
+.Portfolio{
+	background-image: url(../images/pexels-andrea-piacquadio-3760529.jpg);
+	width:auto;
+	background-size: cover;   
+	padding:300px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+	filter: brightness(50%);
+}
+
+.Portfolio-Section1{
+	padding: 100px; 10px;
+	background-color: #e5c58f;
+}
+
+.Portfolio-Section1 p{
+	line-height:1.6;
+		padding-right:30px;
+		color:#000000;
+		font-size: 14pt;
+	
+}
+
+
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+	
+	
+.News{
+	background-image: url(../images/pexels-fauxels-3183197.jpg);
+	width:auto;
+	background-size: cover;   
+	padding:400px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+	filter: brightness(50%);
+}
+
+.News-Section1{
+	padding:30px 50px;
+}
+
+.News-Section1 p{
+	line-height:1.6;
+	padding:30px;
+	font-size: 14pt;
+	color:#ccc;
+}
+.News-Section1 h2{
+	padding:40px ;
+	color:#e5c58f;
+}
+
+.Contact-Heading {
+	text-align:center;
+	padding:40px 0;
+	color:#ffffff;
+	font-size:24pt;
+}
+
+.form { max-width:1000px; margin:90px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: transparent;
+  border:1px solid #e5c58f;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:1000px;
+  box-sizing: border-box;
+  outline:0;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.feedback-input:focus { border:2px solid #e5c58f; }
+
+textarea {
+  height: 300px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: sans-serif, Arial, Helvetica ;
+  width: 100%;
+  background:none;
+  
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  
+}
+[type="submit"]:hover { background:#e5c58f; }	
+.Sustainability{
+	background-image: url(../images/Landscape.jpg);
+	width:auto;
+	background-size: cover;   
+	padding:400px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+	filter: brightness(50%);
+}
+
+.Sus-heading p{
+	position: absolute;
+	text-align:center;
+	color:#E5C58F; /*Gold*/
+	font-family: sans-serif, Arial;
+	font-size:40pt;
+	top:70%;
+	left: 38%;
+}
+.Sus-Section1 {
+	padding:50px 100px;
+	color: #ffffff;
+	text-align:center;
+	
+}
+
+.Sus-Section1 p{
+	padding:50px 0;
+	font-size:14pt;
+}
+.Sus-Section1 h2{
+	padding:40px 0;
+	color:#e5c58f;
+}
+
+.Sus-fixedA{
+	background-image: url(../images/Yanzo-36127.png);
+	max-width:100%;
+	background-size: cover;  
+	padding:400px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+}
+
+.Sus-fixedB{
+	background-image: url(../images/water-mazes-for-garden-design.jpg);
+	max-width:100%;
+	background-size: cover;  
+	padding:400px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	margin-bottom: -5px;
+}
+.Sus-Section2{
+	
+	padding: 0px 20px 61px 20px;
+	background-color: #e5c58f;
+}
+.Sus-Section2 img{
+	float:right;
+	padding:0px 20px 0 30px;
+	
+	
+}
+.Sus-Section2 p{
+	line-height:1.6;
+		text-align: left;
+		padding:80px 50px 0px 20px;
+		color:#000000;
+		font-size: 14pt;
+		
+}
+
+.Portfolio-Section1{
+	
+}
+
+.Portfolio-Section1 p{
+	
+	
+}
+
+.content h2{
+	width: 100%
+	text-align: center;
+	color:#ffffff;
+	font-size: 36px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+
+
+
+
+.content .form-row{
+	position:relative;
+	width:100%;
+	
+	
+}
+
+}
+.footer{
+	padding:400px 100px 100px 100px;
+	background-color: #24262b; /*Dark Grey*/ 
+	margin-bottom: -5px;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.form-row-heading{
+	left:50%
+}
+
+.footer-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-content img{
+	width:17%;
+}
+	
+
+.items h3{
+	padding:20px 0 0 0;
+    	position: relative;
+    	font-size: 1.3em;
+    	margin-bottom: 1rem;
+    	color: #e5c58f;
+}
+.items h3::after{
+	content:"";
+    	position: absolute;
+    	width: 140px;
+    	height: 1px;
+    	background: #fff;
+    	bottom: -4px;
+    	left: 0;
+}
+
+.items a:hover{
+	color:#e5c58f;
+}
+hr{
+    opacity: .3;
+}
+
+.footer .end{
+    	text-align: center;
+    	padding: 20px 0 20px 0;
+	color: #ffffff;
+}
